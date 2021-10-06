@@ -1,3 +1,3 @@
-def function(x,y):
-    return(x*y)
+def print_temperature():
+    print(temperature)
    
