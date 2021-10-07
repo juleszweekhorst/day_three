@@ -3,5 +3,14 @@ def add(a, b):
 
 
 def test_add():
-    result = add(0.1,0.2)
-    assert abs(result-0.3) <1.0e-7
+    assert add(2, 3) == 5
+    assert add('space', 'ship') == 'spaceship'
+
+
+def subtract(a, b):
+    return a + b  # <--- fix this 
+
+
+# uncomment the following test
+#def test_subtract():
+#    assert subtract(2, 3) == -1
